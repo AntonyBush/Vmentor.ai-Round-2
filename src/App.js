@@ -6,13 +6,14 @@ import Card from './Card';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { withStyles } from '@material-ui/styles';
 import {Grid} from '@material-ui/core';
+// import Header from './Header'
 import { makeStyles } from "@material-ui/core/styles";
-
+let num=0;
 const useStyles = {
     paddingLeft: "40px",
     paddingRight: "40px"
 };
-
+var g;
 class App extends React.Component {
    
   // Constructor 
@@ -44,6 +45,7 @@ class App extends React.Component {
  
       return (
       <div className = "App"> 
+        {/* <Header /> */}
         <Grid container spacing={4} style={useStyles}>
           {
               items.map((it) => ( 

@@ -19,8 +19,8 @@ export default function ImgMediaCard({id, title, user_id, body,imgs}) {
   const classes = useStyles();
   const myTheme = {
     cardHeaderStylePref:{
-       background: 'linear-gradient(to right bottom, #430089, #82ffa1)',
-       color:'white',
+       background: 'linear-gradient(132deg, rgb(227, 244, 253) 0.00%, rgb(170, 209, 226) 100.00%)',
+       color:'#333333',
        height: 40,
        padding: 0
      }
