@@ -32,7 +32,7 @@ export class PostForm extends Component {
   render() {
     const { userId, id, title, body } = this.state;
     return (
-        <div className="App">
+        <div className="App1">
         <form onSubmit={this.submitHandler}>
           <input
             required="required"

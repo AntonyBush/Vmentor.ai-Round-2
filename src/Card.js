@@ -8,10 +8,12 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import { CardHeader } from '@material-ui/core';
+import './App.css'
 
 const useStyles = makeStyles({
   root: {
     maxWidth: 300,
+
   },
 });
 
@@ -22,14 +24,16 @@ export default function ImgMediaCard({id, title, user_id, body,imgs}) {
        background: 'linear-gradient(132deg, rgb(227, 244, 253) 0.00%, rgb(170, 209, 226) 100.00%)',
        color:'#333333',
        height: 40,
-       padding: 0
+       padding: 0,
+       
+
      }
  }
   return (
     <Card className={classes.root}>
       <CardActionArea>
         <CardHeader style={myTheme.cardHeaderStylePref}
-        title= {"ID: "+id+"\nUserId: "+user_id} className = {classes.cardHeaderClass}
+        title= {"ID: "+id+"\nUserId: "+user_id} className="cardHeader"
         />
         <CardMedia
           component="img"

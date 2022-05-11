@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from './App';
@@ -16,6 +17,7 @@ root.render(
         <Route path="/" element={<Layout />}>
           <Route index element={<App />} />
           <Route path="fill" element={<PostForm />} />
+
         </Route>
       </Routes>
     </BrowserRouter>

@@ -10,6 +10,7 @@ import {Grid} from '@material-ui/core';
 import { makeStyles } from "@material-ui/core/styles";
 let num=0;
 const useStyles = {
+    marginLeft: '5.5%',
     paddingLeft: "40px",
     paddingRight: "40px"
 };

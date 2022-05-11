@@ -1,70 +1,31 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Round 2 
+## Problem Statement
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Build a 2 page webapp using React.js where the HomePage displays a list of cards in a grid with three elements per row. 
+The Card will contain the following Info:
+- userId
+- id
+- title
+- body
+- And a suitable image
+The second page shall be a form where you will have the following inputs
+- id
+- userId
+- title
+- body
+## Packages, API and CDN link
+- Material UI
+- React-Bootstrap 5
+- MDB React UI 
+- React Router DOM
+- Axios 
+- API: https://jsonplaceholder.typicode.com/posts
+- CDN: https://picsum.photos/200/300?random
+## User Interface 
+### Desktop View
+![alt text](https://ik.imagekit.io/mathlaw/DHome_Tajlel9Kp.png?ik-sdk-version=javascript-1.4.3&updatedAt=1652282233304)
+![alt text](https://ik.imagekit.io/mathlaw/D2_pj38ThRh8.png?ik-sdk-version=javascript-1.4.3&updatedAt=1652282233304)
+### Mobile View
+![alt text](https://ik.imagekit.io/mathlaw/Screenshot_2022-05-11-20-46-17-770_com.android.chrome_nl42EvDy5.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1652282390434)
+![alt text](https://ik.imagekit.io/mathlaw/Screenshot_2022-05-11-20-46-25-175_com.android.chrome_cVxESSCxq.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1652282390521)

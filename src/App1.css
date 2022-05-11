@@ -1,7 +1,8 @@
-.App {
+.App1 {
     display: flex;
     justify-content: center;
-    margin-top: 5rem;
+    margin-top:12rem;
+    margin-bottom: 10rem;
   }
   input {
     display: block;

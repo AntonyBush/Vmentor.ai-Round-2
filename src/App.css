@@ -1,7 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 .App {
     text-align: center;
+    align-items: center;
     color: Green;
+    margin-top: 5rem;
+    margin-right: 4rem;
 }
+html,body {
+  /* this makes sure the padding and the border is included in the box sizing */
+  overflow-x: hidden;
+}
+html {
+  position: relative;
+}
+
+
 .App-header {
     background-color: #282c34;
     min-height: 100vh;
