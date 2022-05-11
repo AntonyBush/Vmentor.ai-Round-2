@@ -9,6 +9,7 @@ The Card will contain the following Info:
 - title
 - body
 - And a suitable image
+
 The second page shall be a form where you will have the following inputs
 - id
 - userId
